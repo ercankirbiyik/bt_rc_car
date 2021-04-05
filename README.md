@@ -1,2 +1,2 @@
 # bt_rc_car
-Bluetooth kontrollü araba kütüphanesi
+Bluetooth controller car with Arduino
