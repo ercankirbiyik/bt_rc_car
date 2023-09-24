@@ -1,3 +1,4 @@
+//Ercan Kırbıyık
 //**Bluetooth Kontrollü araba yapım kodu**//
 
 #include <AFMotor.h> //Kütüphane ekleme
@@ -33,12 +34,12 @@ void loop() {
     motor2.run(BACKWARD);
     motor3.run(BACKWARD);
     motor4.run(BACKWARD);
-  } else if (value == 'L') {
+  } else if (value == 'R') {
     motor1.run(BACKWARD);
     motor2.run(BACKWARD);
     motor3.run(FORWARD);
     motor4.run(FORWARD);
-  } else if (value == 'R') {
+  } else if (value == 'L') {
     motor1.run(FORWARD);
     motor2.run(FORWARD);
     motor3.run(BACKWARD);
